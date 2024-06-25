@@ -1,0 +1,4 @@
+- **tags:** #privesc #linux 
+- -------
+# /etc/sudoers
+The */etc/sudoers* file is a configuration file on Linux systems that is used to control user access to the different actions they can perform on the system. This file contains a list of users and user groups that have permissions to perform administrative tasks on the system. The "**sudo -l**" command is used to list the *sudo* permissions of a particular user. When this command is executed, it displays a list of the commands that the user has permission to execute and under what conditions. If an attacker is able to gain access to an account with sudo permissions in the sudoers file, he can execute commands with special privileges and perform malicious actions on the system.
