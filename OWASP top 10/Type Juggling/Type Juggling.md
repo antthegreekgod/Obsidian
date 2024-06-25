@@ -1,0 +1,3 @@
+- **tags:** #top10 #typeJuggling
+- -------------------
+`PHP` type juggling vulnerability occurs when a *loose comparison operator* ( == or != ) is used in the place of a strict comparison operator ( \===  or \!== )  in a situation where the attacker has access to one of the variables being compared. This vulnerability *may cause* the application to provide an *unexpected* true or false *response* and may result in serious authorization and/or authentication problems.
